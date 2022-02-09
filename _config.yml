@@ -3,3 +3,23 @@ theme: jekyll-theme-cayman
 navigation:
   - {file: "README.md", icon: address-card}
   - {file: "helloworld.md"}
+
+palette:
+  # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
+  primary: deep
+  accent: indigo
+ 
+font:
+  # See available fonts at https://fonts.google.com/
+  text: Ubuntu
+  code: IBM Plex Mono
+icon:
+  logo: material/school
+favicon: images/favicon.svg
+features:
+  - navigation.tabs
+  - navigation.instant
+  - navigation.tracking
+  
+extra_css:
+  - stylesheets/extra.css
