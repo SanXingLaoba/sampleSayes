@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+
+navigation:
+  - {file: "README.md", icon: address-card}
+  - {file: "helloworld.md"}
